@@ -6,6 +6,28 @@ By default, the BPI will be shown for _USD_, _GBP_, and _EUR_. Optionally, one c
 
 _Bitcoin Monitor_ makes use of the _[CoinDesk Bitcoin Price Index API]_. Go [here](https://www.coindesk.com/price/) for more price information by CoinDesk.
 
+The application is composed of the following components:
+
+* Header - A heading that displays application title
+
+* BitcoinMonitor - The primary (root) component that manages state for itself and all underlying components. It is also responsible for connecting to _BitcoinService_ to retrieve _Bitcoin Price Index_ data.
+
+* Display - Displays the _Bitcoin Price Index_ data for USD, GBP, and EUR as a default. Also allows one to select a currency as a fourth price to monitor.
+
+* Indicator - Used by the _Display_ component, it displays an indicator that shows if the current price is up or down from previous price.
+
+Component Diagram
+![Component Diagram](https://user-images.githubusercontent.com/33935506/34460739-2e3b6a84-ee20-11e7-8808-a654fbdaaf55.png)
+
+The following services are used to obtain _Bitcoin Price Index_ data:
+
+* BitcoinService
+
+  A wrapper that is responsible for integrating with the [CoinDesk Bitcoin Price Index API]
+
+Service Diagram
+![react-bitcoin-monitor-services](https://user-images.githubusercontent.com/33935506/34460740-2e7c490a-ee20-11e7-936e-60c637b630da.png)
+
 Features:
 
 * Show BPI for USD, GBP, and EUR
@@ -21,8 +43,10 @@ This project also demonstrates:
 * [CoinDesk Bitcoin Price Index API] integration
 
 **Screenshots:**
-
-![react-bitcoin-monitor-1](https://user-images.githubusercontent.com/33935506/34299926-544d4d08-e72e-11e7-8686-89e33f0084ec.PNG)![react-bitcoin-monitor-2](https://user-images.githubusercontent.com/33935506/34299927-54a65934-e72e-11e7-85f1-3c20df9534d2.PNG)
+ ... | ...
+---|---
+![screen shot 2017-12-31 at 11 51 08](https://user-images.githubusercontent.com/33935506/34460771-4309303a-ee21-11e7-8a41-867a266e092c.png) | ![screen shot 2017-12-31 at 11 51 25](https://user-images.githubusercontent.com/33935506/34460772-4337f320-ee21-11e7-9cc5-aa3b78f5f6b0.png)
+![screen shot 2017-12-31 at 11 51 55](https://user-images.githubusercontent.com/33935506/34460773-436739be-ee21-11e7-9604-8450e09ee9cc.png) | ![screen shot 2017-12-31 at 11 53 22](https://user-images.githubusercontent.com/33935506/34460774-43a80264-ee21-11e7-8323-fbee96ccce35.png)
 
 ---
 
@@ -36,6 +60,7 @@ This project also demonstrates:
 * [SCSS](http://sass-lang.com/) - A css metalanguage
 * [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
 * [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
+* [CoinDesk Bitcoin Price Index API] - Provides Bitcoin Price Index data
 
 ---
 
@@ -72,6 +97,10 @@ This project also demonstrates:
 * [react-calculator-standard]
 
   A calculator that provides the essential arithmetic operations, an expression builder, and a complete history of all expressions
+
+* [react-weather-standard]
+
+  A weather application that displays the current weather, daily forecasts, and hourly forecasts based on your current geolocation
 
 ---
 
@@ -189,3 +218,4 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 [react-masterminds]: https://github.com/drminnaar/react-masterminds
 [react-movie-cards]: https://github.com/drminnaar/react-movie-cards
 [react-calculator-standard]: https://github.com/drminnaar/react-calculator-standard
+[react-weather-standard]: https://github.com/drminnaar/react-weather-standard
