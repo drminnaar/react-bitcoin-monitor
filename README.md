@@ -46,8 +46,8 @@ This project also demonstrates:
 
 ... | ...
 ---|---
-![screen shot 2017-12-31 at 11 51 08](https://user-images.githubusercontent.com/33935506/34460771-4309303a-ee21-11e7-8a41-867a266e092c.png) | ![screen shot 2017-12-31 at 11 51 25](https://user-images.githubusercontent.com/33935506/34460772-4337f320-ee21-11e7-9cc5-aa3b78f5f6b0.png)
-![screen shot 2017-12-31 at 11 51 55](https://user-images.githubusercontent.com/33935506/34460773-436739be-ee21-11e7-9604-8450e09ee9cc.png) | ![screen shot 2017-12-31 at 11 53 22](https://user-images.githubusercontent.com/33935506/34460774-43a80264-ee21-11e7-8323-fbee96ccce35.png)
+![](https://user-images.githubusercontent.com/33935506/34460771-4309303a-ee21-11e7-8a41-867a266e092c.png) | ![](https://user-images.githubusercontent.com/33935506/34460772-4337f320-ee21-11e7-9cc5-aa3b78f5f6b0.png)
+![](https://user-images.githubusercontent.com/33935506/34460773-436739be-ee21-11e7-9604-8450e09ee9cc.png) | ![](https://user-images.githubusercontent.com/33935506/34460774-43a80264-ee21-11e7-8323-fbee96ccce35.png)
 
 ---
 
