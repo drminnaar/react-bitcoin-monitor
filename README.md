@@ -6,6 +6,8 @@ By default, the BPI will be shown for _USD_, _GBP_, and _EUR_. Optionally, one c
 
 _Bitcoin Monitor_ makes use of the _[CoinDesk Bitcoin Price Index API]_. Go [here](https://www.coindesk.com/price/) for more price information by CoinDesk.
 
+Go **[here](http://react-bitcoin-monitor.drminnaar.me/)** for live demo.
+
 The application is composed of the following components:
 
 * Header - A heading that displays application title
@@ -62,6 +64,7 @@ This project also demonstrates:
 * [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
 * [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
 * [CoinDesk Bitcoin Price Index API] - Provides Bitcoin Price Index data
+* [Surge] - Static web publishing for Front-End Developers
 
 ---
 
@@ -211,6 +214,7 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 * **Douglas Minnaar** - *Initial work* - [drminnaar](https://github.com/drminnaar)
 
 [CoinDesk Bitcoin Price Index API]: https://www.coindesk.com/api/
+[Surge]: https://surge.sh/
 [react-starter]: https://github.com/drminnaar/react-starter
 [react-clicker]: https://github.com/drminnaar/react-clicker
 [react-clock-basic]: https://github.com/drminnaar/react-clock-basic
